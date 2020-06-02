@@ -36,7 +36,7 @@ public class CJRecord extends CJRecordHelper
 		placeOrder().click();
 		
 		// Frame: Member Logon
-		existingCustomer().click();
+		//existingCustomer().click();
 		password().click(atPoint(65,12));
 		memberLogon().inputChars("1234");
 		ok().click();
